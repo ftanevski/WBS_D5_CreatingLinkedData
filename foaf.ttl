@@ -1,0 +1,29 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Filip Tanevski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Filip" ;
+  foaf:family_name "Tanevski" ;
+  foaf:nick "Tancho" ;
+  foaf:mbox_sha1sum "2104cf5f4d76339e1bae81b14bec61295bff42f6" ;
+  foaf:phone <tel:+38971902234> ;
+  foaf:schoolHomepage <https://finki.ukim.mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Andrej Kocev" ;
+    foaf:mbox_sha1sum "fd6fe994705ec7b3679085d0dd3a0c8855c3d4b4"
+  ], [
+    a foaf:Person ;
+    foaf:name "Amar Hadzi Ahmetovikj" ;
+    foaf:mbox_sha1sum "c086e26e2e7579a6514dd177c1d6a2b8b0c9a85e"
+  ] .
