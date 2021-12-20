@@ -21,8 +21,9 @@
   foaf:schoolHomepage <https://finki.ukim.mk> ;
   foaf:knows [
     a foaf:Person ;
-    foaf:name "Andrej Kocev" ;
-    foaf:mbox_sha1sum "bfc8f8179fd9148e13e991734da4d14e89bce1f9"
+    foaf:name "Milos Jovanovikj" ;
+    foaf:mbox_sha1sum "bfc8f8179fd9148e13e991734da4d14e89bce1f9" ;
+    rdfs:seeAlso <http://mjovanovikj.com/foaf.ttl#>
   ], [
     a foaf:Person ;
     foaf:name "Robert Ilievski" ;
